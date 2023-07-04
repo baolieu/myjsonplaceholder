@@ -1,0 +1,817 @@
+{
+  "success": true,
+  "error": "",
+  "data": {
+    "config": {
+      "colors": {
+        "primary_color": "",
+        "promo_color": "",
+        "active_border_color": "",
+        "active_bg_color": ""
+      },
+      "current_time": 0,
+      "default_duration": 0,
+      "default_duration_for_free_ad": 0,
+      "messages": null
+    },
+    "pos_bundle_groups": [
+      {
+        "name": "Đẩy tin",
+        "description": "Đẩy tin đăng lên đầu trang tìm kiếm như một tin mới để tăng khả năng tiếp cận",
+        "pos_bundles": [
+          {
+            "uuid": "0c02fc61-1c40-4f09-8ec7-ccf7879fb259",
+            "is_disable": true,
+            "category_id": 1050,
+            "ad_type": "u",
+            "region_id": 13000,
+            "name": "Đẩy tin thường",
+            "is_active": true,
+            "order": 1,
+            "type": "bump",
+            "price": {
+              "uuid": "8ccd1850-3711-43c7-a11c-d4cb78d94e0b",
+              "value": 15000,
+              "basis": 15000,
+              "promotion": 0,
+              "unit": "đ / ngày"
+            },
+            "metadata": {
+              "uuid": "75d20142-dbfe-4f65-bca8-4019f4504668",
+              "intro": "Đẩy tin ngay 1 lần hoặc lặp lại mỗi ngày, bắt đầu từ thời điểm thanh toán",
+              "tip": "Đẩy tin lên trang đầu ngay sau khi thanh toán.\nMẹo đẩy tin hiệu quả: Thời gian đẩy tin phù hợp nhất là sau khi tin đăng được duyệt 3-4 ngày.",
+              "unit": "",
+              "image": "https://static.chotot.com/storage/default_images/pty/pos/pos-1.png",
+              "icon": "https://static.chotot.com/storage/default_images/pty/pos/pos-icon-timebump.png",
+              "is_active": true,
+              "highlight": {
+                "bg_color": "",
+                "label": ""
+              },
+              "params": null
+            },
+            "quantities": [
+              {
+                "uuid": "91423595-98dc-4fc1-aa23-b286ebc51c4d",
+                "name": "1 Ngày",
+                "duration": 1,
+                "ref_id": "",
+                "type": "bump",
+                "is_default": true,
+                "price": {
+                  "uuid": "393fd671-8373-4273-8865-ae959d009c51",
+                  "value": 15000,
+                  "basis": 15000,
+                  "promotion": 0,
+                  "unit": "đ"
+                },
+                "pos_bundle": {
+                  "uuid": "",
+                  "category_id": 0,
+                  "ad_type": "",
+                  "region_id": 0,
+                  "name": "",
+                  "is_active": false,
+                  "order": 0,
+                  "type": "",
+                  "price": {
+                    "uuid": "",
+                    "value": 0,
+                    "basis": 0,
+                    "promotion": 0,
+                    "unit": ""
+                  },
+                  "metadata": {
+                    "uuid": "",
+                    "intro": "",
+                    "tip": "",
+                    "unit": "",
+                    "image": "",
+                    "icon": "",
+                    "is_active": false,
+                    "highlight": {
+                      "bg_color": "",
+                      "label": ""
+                    },
+                    "params": null
+                  },
+                  "quantities": null
+                }
+              },
+              {
+                "uuid": "d481dcee-1f54-4596-8e48-39bf1298163e",
+                "name": "3 Ngày",
+                "duration": 3,
+                "ref_id": "",
+                "type": "3days_bump",
+                "is_default": false,
+                "price": {
+                  "uuid": "34cf81e3-e4f7-4e6f-be3b-971a812d6cb9",
+                  "value": 43000,
+                  "basis": 45000,
+                  "promotion": 5,
+                  "unit": "đ"
+                },
+                "pos_bundle": {
+                  "uuid": "",
+                  "category_id": 0,
+                  "ad_type": "",
+                  "region_id": 0,
+                  "name": "",
+                  "is_active": false,
+                  "order": 0,
+                  "type": "",
+                  "price": {
+                    "uuid": "",
+                    "value": 0,
+                    "basis": 0,
+                    "promotion": 0,
+                    "unit": ""
+                  },
+                  "metadata": {
+                    "uuid": "",
+                    "intro": "",
+                    "tip": "",
+                    "unit": "",
+                    "image": "",
+                    "icon": "",
+                    "is_active": false,
+                    "highlight": {
+                      "bg_color": "",
+                      "label": ""
+                    },
+                    "params": null
+                  },
+                  "quantities": null
+                }
+              },
+              {
+                "uuid": "f9c1cef2-cd67-406f-81cb-6c913ee1e3d7",
+                "name": "7 Ngày",
+                "duration": 7,
+                "ref_id": "",
+                "type": "7days_bump",
+                "is_default": false,
+                "price": {
+                  "uuid": "dbc7390b-41ba-424f-8c3b-cc9f991fb6a8",
+                  "value": 95000,
+                  "basis": 105000,
+                  "promotion": 10,
+                  "unit": "đ"
+                },
+                "pos_bundle": {
+                  "uuid": "",
+                  "category_id": 0,
+                  "ad_type": "",
+                  "region_id": 0,
+                  "name": "",
+                  "is_active": false,
+                  "order": 0,
+                  "type": "",
+                  "price": {
+                    "uuid": "",
+                    "value": 0,
+                    "basis": 0,
+                    "promotion": 0,
+                    "unit": ""
+                  },
+                  "metadata": {
+                    "uuid": "",
+                    "intro": "",
+                    "tip": "",
+                    "unit": "",
+                    "image": "",
+                    "icon": "",
+                    "is_active": false,
+                    "highlight": {
+                      "bg_color": "",
+                      "label": ""
+                    },
+                    "params": null
+                  },
+                  "quantities": null
+                }
+              }
+            ]
+          },
+          {
+            "uuid": "9202e04c-abbe-48d9-8081-2be6ef734f61",
+            "category_id": 1050,
+            "ad_type": "u",
+            "region_id": 13000,
+            "name": "Đẩy tin hẹn giờ",
+            "is_active": true,
+            "order": 2,
+            "type": "time_bump",
+            "price": {
+              "uuid": "8ccd1850-3711-43c7-a11c-d4cb78d94e0b",
+              "value": 15000,
+              "basis": 15000,
+              "promotion": 0,
+              "unit": "đ / lần"
+            },
+            "metadata": {
+              "uuid": "75d20142-dbfe-4f65-bca8-4019f4504668",
+              "intro": "Tiện lợi và chủ động chọn khung giờ đẩy tin hiệu quả",
+              "tip": "Tiện lợi và chủ động chọn khung giờ đẩy tin hiệu quả.\nTăng thêm trung bình 30 lượt xem tin (chỉ với 15k/ chỉ với 1 lần đẩy tin).\nMẹo đẩy tin hiệu quả: Theo thống kê, khung giờ đẩy tin tối ưu nhất là 9h - 11h sáng và 2h - 4h chiều.",
+              "unit": "",
+              "image": "https://static.chotot.com/storage/default_images/pty/pos/pos-1.png",
+              "icon": "https://static.chotot.com/storage/default_images/pty/pos/pos-icon-timebump.png",
+              "is_active": true,
+              "highlight": {
+                "bg_color": "",
+                "label": ""
+              },
+              "params": null
+            },
+            "quantities": [
+              {
+                "uuid": "0cb0d159-7c78-4409-bcd5-0519a3bff8ec",
+                "name": "1 Ngày",
+                "duration": 1,
+                "ref_id": "",
+                "type": "timer_bump",
+                "is_default": false,
+                "price": {
+                  "uuid": "393fd671-8373-4273-8865-ae959d009c51",
+                  "value": 15000,
+                  "basis": 15000,
+                  "promotion": 0,
+                  "unit": "đ / lần"
+                },
+                "pos_bundle": {
+                  "uuid": "",
+                  "category_id": 0,
+                  "ad_type": "",
+                  "region_id": 0,
+                  "name": "",
+                  "is_active": false,
+                  "order": 0,
+                  "type": "",
+                  "price": {
+                    "uuid": "",
+                    "value": 0,
+                    "basis": 0,
+                    "promotion": 0,
+                    "unit": ""
+                  },
+                  "metadata": {
+                    "uuid": "",
+                    "intro": "",
+                    "tip": "",
+                    "unit": "",
+                    "image": "",
+                    "icon": "",
+                    "is_active": false,
+                    "highlight": {
+                      "bg_color": "",
+                      "label": ""
+                    },
+                    "params": null
+                  },
+                  "quantities": null
+                }
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Nâng cấp giao diện tin đăng",
+        "description": "Tăng kích thước hiển thị tin đăng, nổi bật hơn để thu hút khách hàng click xem tin",
+        "pos_bundles": [
+          {
+            "uuid": "ef95daf7-485b-421b-88a7-a2cf0a28d364",
+            "category_id": 1050,
+            "ad_type": "u",
+            "region_id": 13000,
+            "name": "Tin nổi bật - Nhiều hình ảnh",
+            "is_active": true,
+            "order": 1,
+            "type": "sda",
+            "price": {
+              "uuid": "393fd671-8373-4273-8865-ae959d009c51",
+              "value": 8000,
+              "basis": 8000,
+              "promotion": 0,
+              "unit": "đ / ngày"
+            },
+            "metadata": {
+              "uuid": "75d20142-dbfe-4f65-bca8-4019f4504668",
+              "intro": "Gấp đôi kích thước hiển thị, tăng tỉ lệ khách hàng liên hệ",
+              "tip": "Tin đăng với 06 hình ảnh, gấp đôi diện tích hiển thị ở trang danh sách tin đăng (trang listing á mà em chưa tìm ra wording, adview thì nó có nhiều hình obvious ròi)\nHiển thị thông tin \"Hướng nhà\".\nTăng độ nhận diện & thu hút khách hàng tiềm năng.",
+              "unit": "",
+              "image": "https://static.chotot.com/storage/default_images/pty/pos/pos-1.png",
+              "icon": "https://static.chotot.com/storage/default_images/pty/pos/pos-icon-timebump.png",
+              "is_active": true,
+              "highlight": {
+                "bg_color": "",
+                "label": ""
+              },
+              "params": null
+            },
+            "quantities": [
+              {
+                "uuid": "025fc355-464b-441c-af16-067ca63990bf",
+                "name": "7 Ngày",
+                "is_disable": true,
+                "duration": 7,
+                "ref_id": "",
+                "type": "special_display",
+                "is_default": false,
+                "price": {
+                  "uuid": "89b4331d-f82d-430b-8b34-04a7f17586ec",
+                  "value": 45000,
+                  "basis": 56000,
+                  "promotion": 20,
+                  "unit": "đ"
+                },
+                "pos_bundle": {
+                  "uuid": "",
+                  "category_id": 0,
+                  "ad_type": "",
+                  "region_id": 0,
+                  "name": "",
+                  "is_active": false,
+                  "order": 0,
+                  "type": "",
+                  "price": {
+                    "uuid": "",
+                    "value": 0,
+                    "basis": 0,
+                    "promotion": 0,
+                    "unit": ""
+                  },
+                  "metadata": {
+                    "uuid": "",
+                    "intro": "",
+                    "tip": "",
+                    "unit": "",
+                    "image": "",
+                    "icon": "",
+                    "is_active": false,
+                    "highlight": {
+                      "bg_color": "",
+                      "label": ""
+                    },
+                    "params": null
+                  },
+                  "quantities": null
+                }
+              },
+              {
+                "uuid": "45597ae6-5954-4029-bea8-8cd33d3eda52",
+                "name": "14 Ngày",
+                "duration": 14,
+                "ref_id": "",
+                "type": "special_display",
+                "is_default": false,
+                "price": {
+                  "uuid": "e4b7a9c8-1136-415b-ab90-06d39566c0c2",
+                  "value": 84000,
+                  "basis": 112000,
+                  "promotion": 25,
+                  "unit": "đ"
+                },
+                "pos_bundle": {
+                  "uuid": "",
+                  "category_id": 0,
+                  "ad_type": "",
+                  "region_id": 0,
+                  "name": "",
+                  "is_active": false,
+                  "order": 0,
+                  "type": "",
+                  "price": {
+                    "uuid": "",
+                    "value": 0,
+                    "basis": 0,
+                    "promotion": 0,
+                    "unit": ""
+                  },
+                  "metadata": {
+                    "uuid": "",
+                    "intro": "",
+                    "tip": "",
+                    "unit": "",
+                    "image": "",
+                    "icon": "",
+                    "is_active": false,
+                    "highlight": {
+                      "bg_color": "",
+                      "label": ""
+                    },
+                    "params": null
+                  },
+                  "quantities": null
+                }
+              },
+              {
+                "uuid": "c1fa71d3-44c2-4875-b756-7d8cbe94e766",
+                "name": "30 Ngày",
+                "duration": 30,
+                "is_disable": true,
+                "ref_id": "",
+                "type": "special_display",
+                "is_default": false,
+                "price": {
+                  "uuid": "c254042e-6f15-49ee-8d44-cd36123a50e6",
+                  "value": 144000,
+                  "basis": 240000,
+                  "promotion": 40,
+                  "unit": "đ"
+                },
+                "pos_bundle": {
+                  "uuid": "",
+                  "category_id": 0,
+                  "ad_type": "",
+                  "region_id": 0,
+                  "name": "",
+                  "is_active": false,
+                  "order": 0,
+                  "type": "",
+                  "price": {
+                    "uuid": "",
+                    "value": 0,
+                    "basis": 0,
+                    "promotion": 0,
+                    "unit": ""
+                  },
+                  "metadata": {
+                    "uuid": "",
+                    "intro": "",
+                    "tip": "",
+                    "unit": "",
+                    "image": "",
+                    "icon": "",
+                    "is_active": false,
+                    "highlight": {
+                      "bg_color": "",
+                      "label": ""
+                    },
+                    "params": null
+                  },
+                  "quantities": null
+                }
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Ưu tiên vị trí hiển thị",
+        "description": "Gia tăng lợi thế, hiển thị tin đăng luân phiên ở các vị trí đầu trang tìm kiếm",
+        "pos_bundles": [
+          {
+            "uuid": "f60fc77e-1d8d-4654-9179-37cfed4b4598",
+            "category_id": 1050,
+            "ad_type": "u",
+            "region_id": 13000,
+            "name": "Tin ưu tiên",
+            "is_active": true,
+            "order": 1,
+            "type": "sticky_ad",
+            "price": {
+              "uuid": "393fd671-8373-4273-8865-ae959d009c51",
+              "value": 115000,
+              "basis": 115000,
+              "promotion": 0,
+              "unit": "đ / ngày"
+            },
+            "metadata": {
+              "uuid": "75d20142-dbfe-4f65-bca8-4019f4504668",
+              "intro": "Ghim tin đăng ở 1 trong 5 vị trí đầu trang tìm kiếm",
+              "tip": "Được hiển thị tại 1 trong 5 vị trí đầu tiên trên Trang tìm kiếm của Nhà Tốt\nLưu ý trước khi sử dụng: Để đảm bảo duy trì hiệu quả tính năng - hiệu quả gấp 3 lần so với tính năng thông thường - trong mọi khung giờ trong ngày áp dụng, Nhà Tốt có ra giới hạn 10% người dùng được ưu tiên mỗi ngày.",
+              "unit": "",
+              "image": "https://static.chotot.com/storage/default_images/pty/pos/pos-1.png",
+              "icon": "https://static.chotot.com/storage/default_images/pty/pos/pos-icon-timebump.png",
+              "is_active": true,
+              "highlight": {
+                "bg_color": "",
+                "label": ""
+              },
+              "params": null
+            },
+            "quantities": [
+              {
+                "uuid": "b8ffe3b3-2870-41b8-a4ea-9a853bd2549b",
+                "name": "1 Ngày",
+                "duration": 1,
+                "ref_id": "",
+                "type": "sticky_ad",
+                "is_default": true,
+                "price": {
+                  "uuid": "e437c85e-3286-4ac7-ab5b-30aa959b8112",
+                  "value": 80000,
+                  "basis": 80000,
+                  "promotion": 0,
+                  "unit": "đ"
+                },
+                "pos_bundle": {
+                  "uuid": "",
+                  "category_id": 0,
+                  "ad_type": "",
+                  "region_id": 0,
+                  "name": "",
+                  "is_active": false,
+                  "order": 0,
+                  "type": "",
+                  "price": {
+                    "uuid": "",
+                    "value": 0,
+                    "basis": 0,
+                    "promotion": 0,
+                    "unit": ""
+                  },
+                  "metadata": {
+                    "uuid": "",
+                    "intro": "",
+                    "tip": "",
+                    "unit": "",
+                    "image": "",
+                    "icon": "",
+                    "is_active": false,
+                    "highlight": {
+                      "bg_color": "",
+                      "label": ""
+                    },
+                    "params": null
+                  },
+                  "quantities": null
+                }
+              },
+              {
+                "uuid": "1608a354-2d01-4f38-9ee8-f2741b2456ce",
+                "name": "2 Ngày",
+                "duration": 2,
+                "ref_id": "",
+                "type": "sticky_ad",
+                "is_default": false,
+                "price": {
+                  "uuid": "3f64c952-fe19-4c7c-b76c-79ceaf86bdd4",
+                  "value": 160000,
+                  "basis": 160000,
+                  "promotion": 0,
+                  "unit": "đ"
+                },
+                "pos_bundle": {
+                  "uuid": "",
+                  "category_id": 0,
+                  "ad_type": "",
+                  "region_id": 0,
+                  "name": "",
+                  "is_active": false,
+                  "order": 0,
+                  "type": "",
+                  "price": {
+                    "uuid": "",
+                    "value": 0,
+                    "basis": 0,
+                    "promotion": 0,
+                    "unit": ""
+                  },
+                  "metadata": {
+                    "uuid": "",
+                    "intro": "",
+                    "tip": "",
+                    "unit": "",
+                    "image": "",
+                    "icon": "",
+                    "is_active": false,
+                    "highlight": {
+                      "bg_color": "",
+                      "label": ""
+                    },
+                    "params": null
+                  },
+                  "quantities": null
+                }
+              },
+              {
+                "uuid": "1daf24f6-d914-4b59-a398-3c28a2a7813b",
+                "name": "3 Ngày",
+                "duration": 3,
+                "ref_id": "",
+                "type": "sticky_ad",
+                "is_default": false,
+                "price": {
+                  "uuid": "acac0f3c-8447-469f-a200-da16114af1b0",
+                  "value": 240000,
+                  "basis": 240000,
+                  "promotion": 0,
+                  "unit": "đ"
+                },
+                "pos_bundle": {
+                  "uuid": "",
+                  "category_id": 0,
+                  "ad_type": "",
+                  "region_id": 0,
+                  "name": "",
+                  "is_active": false,
+                  "order": 0,
+                  "type": "",
+                  "price": {
+                    "uuid": "",
+                    "value": 0,
+                    "basis": 0,
+                    "promotion": 0,
+                    "unit": ""
+                  },
+                  "metadata": {
+                    "uuid": "",
+                    "intro": "",
+                    "tip": "",
+                    "unit": "",
+                    "image": "",
+                    "icon": "",
+                    "is_active": false,
+                    "highlight": {
+                      "bg_color": "",
+                      "label": ""
+                    },
+                    "params": null
+                  },
+                  "quantities": null
+                }
+              },
+              {
+                "uuid": "59820e2a-1149-4c21-8533-d85ab9239326",
+                "name": "5 Ngày",
+                "duration": 5,
+                "ref_id": "",
+                "type": "sticky_ad",
+                "is_default": false,
+                "price": {
+                  "uuid": "80edbfb5-e769-47a5-a344-0daae73ec595",
+                  "value": 400000,
+                  "basis": 400000,
+                  "promotion": 0,
+                  "unit": "đ"
+                },
+                "pos_bundle": {
+                  "uuid": "",
+                  "category_id": 0,
+                  "ad_type": "",
+                  "region_id": 0,
+                  "name": "",
+                  "is_active": false,
+                  "order": 0,
+                  "type": "",
+                  "price": {
+                    "uuid": "",
+                    "value": 0,
+                    "basis": 0,
+                    "promotion": 0,
+                    "unit": ""
+                  },
+                  "metadata": {
+                    "uuid": "",
+                    "intro": "",
+                    "tip": "",
+                    "unit": "",
+                    "image": "",
+                    "icon": "",
+                    "is_active": false,
+                    "highlight": {
+                      "bg_color": "",
+                      "label": ""
+                    },
+                    "params": null
+                  },
+                  "quantities": null
+                }
+              },
+              {
+                "uuid": "d3d66e28-56e5-4eea-9378-637de56b5109",
+                "name": "7 Ngày",
+                "duration": 7,
+                "ref_id": "",
+                "type": "sticky_ad",
+                "is_default": false,
+                "price": {
+                  "uuid": "130d7b7a-3e57-4c6a-8f9a-37a53b63fc63",
+                  "value": 560000,
+                  "basis": 560000,
+                  "promotion": 0,
+                  "unit": "đ"
+                },
+                "pos_bundle": {
+                  "uuid": "",
+                  "category_id": 0,
+                  "ad_type": "",
+                  "region_id": 0,
+                  "name": "",
+                  "is_active": false,
+                  "order": 0,
+                  "type": "",
+                  "price": {
+                    "uuid": "",
+                    "value": 0,
+                    "basis": 0,
+                    "promotion": 0,
+                    "unit": ""
+                  },
+                  "metadata": {
+                    "uuid": "",
+                    "intro": "",
+                    "tip": "",
+                    "unit": "",
+                    "image": "",
+                    "icon": "",
+                    "is_active": false,
+                    "highlight": {
+                      "bg_color": "",
+                      "label": ""
+                    },
+                    "params": null
+                  },
+                  "quantities": null
+                }
+              }
+            ]
+          },
+          {
+            "uuid": "3ff75e06-d3d4-4f26-85ae-dfc5acd80dcc",
+            "category_id": 1050,
+            "ad_type": "u",
+            "region_id": 13000,
+            "name": "Cam kết lượt xem tin",
+            "is_active": true,
+            "order": 2,
+            "type": "cupid",
+            "price": {
+              "uuid": "8ccd1850-3711-43c7-a11c-d4cb78d94e0b",
+              "value": 225000,
+              "basis": 225000,
+              "promotion": 0,
+              "unit": "đ / 7 ngày / 150 lượt"
+            },
+            "metadata": {
+              "uuid": "75d20142-dbfe-4f65-bca8-4019f4504668",
+              "intro": "Cam kết 150 lượt khách hàng xem tin trong 7 ngày",
+              "tip": "Nhà Tốt cam kết tăng thêm 150 lượt nhấp xem tin đăng trong 7 ngày\nSau 7 ngày, đảm bảo hoàn phí tương ứng với lượt xem tin chưa thực hiện",
+              "unit": "",
+              "image": "https://static.chotot.com/storage/default_images/pty/pos/pos-1.png",
+              "icon": "https://static.chotot.com/storage/default_images/pty/pos/pos-icon-timebump.png",
+              "is_active": true,
+              "highlight": {
+                "bg_color": "",
+                "label": ""
+              },
+              "params": null
+            },
+            "quantities": [
+              {
+                "uuid": "8a371e2a-6193-4587-9f7c-4de51f169f88",
+                "name": "7 ngày / 150 lượt",
+                "duration": 7,
+                "ref_id": "",
+                "type": "cupid",
+                "is_default": false,
+                "price": {
+                  "uuid": "393fd671-8373-4273-8865-ae959d009c51",
+                  "value": 225000,
+                  "basis": 225000,
+                  "promotion": 0,
+                  "unit": "đ / 7 ngày / 150 lượt"
+                },
+                "pos_bundle": {
+                  "uuid": "",
+                  "category_id": 0,
+                  "ad_type": "",
+                  "region_id": 0,
+                  "name": "",
+                  "is_active": false,
+                  "order": 0,
+                  "type": "",
+                  "price": {
+                    "uuid": "",
+                    "value": 0,
+                    "basis": 0,
+                    "promotion": 0,
+                    "unit": ""
+                  },
+                  "metadata": {
+                    "uuid": "",
+                    "intro": "",
+                    "tip": "",
+                    "unit": "",
+                    "image": "",
+                    "icon": "",
+                    "is_active": false,
+                    "highlight": {
+                      "bg_color": "",
+                      "label": ""
+                    },
+                    "params": null
+                  },
+                  "quantities": null
+                }
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}
